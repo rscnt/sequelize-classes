@@ -177,7 +177,7 @@ export class Model {
     });
 
     this.declareHooks(model);
-    // this.declareRelations( model, sequelize );
+    this.declareRelations( model, sequelize );
     return model;
   }
 
